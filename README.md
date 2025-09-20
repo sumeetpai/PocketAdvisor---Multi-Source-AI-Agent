@@ -108,8 +108,7 @@ Analyze each source using AI.
 Synthesize a comprehensive, easy-to-understand recommendation.
 
 # 🔹 Code Structure
-bash
-Copy code
+```bash
 PocketAdvisor/
 │
 ├─ main.py                  # Entry point & graph orchestration
@@ -119,7 +118,7 @@ PocketAdvisor/
 ├─ .env                     # Environment variables for API keys
 ├─ requirements.txt         # Python dependencies
 └─ README.md
-
+```
 # 🔹 Technical Highlights
 LangGraph: Orchestrates nodes (search, analysis, synthesis) and edges (workflow) for structured execution.
 
