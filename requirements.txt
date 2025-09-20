@@ -1,0 +1,7 @@
+langchain>=0.3.27,
+langchain-google-genai>=2.1.12,
+langchain-google-vertexai>=2.1.2,
+langchain-mcp-adapters>=0.1.9,
+langgraph>=0.6.7,
+pydantic>=2.11.9,
+python-dotenv>=1.1.1
