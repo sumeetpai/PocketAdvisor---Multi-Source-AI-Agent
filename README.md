@@ -4,7 +4,7 @@
 
 ---
 
-# 🔹 Key Features
+## 🔹 Key Features
 
 1. **Multi-Source Research**
    - Fetches information from:
@@ -36,7 +36,7 @@
 
 ---
 
-# 🔹 Supported Financial Domains
+## 🔹 Supported Financial Domains
 
 - **Investments**
   - Mutual funds, SIPs, ETFs
@@ -60,25 +60,25 @@
 
 ---
 
-# 🔹 Installation
+## 🔹 Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/PocketAdvisor.git
 cd PocketAdvisor
 ```
-# Create virtual environment
+### Create virtual environment
 ```bash
 uv venv
 source .venv/bin/activate   # Linux/macOS
 .venv\Scripts\activate      # Windows
 ```
-# Install dependencies
+### Install dependencies
 ```bash
 uv add -r requirements.txt
 ```
-# Set up environment variables
-# Create a .env file and add:
+### Set up environment variables
+### Create a .env file and add:
 ```bash
 GEMINI_API_KEY=<your_google_gemini_key>
 BRIGHTDATA_API_KEY=<your_brightdata_key>
